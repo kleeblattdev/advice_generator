@@ -1,0 +1,38 @@
+section{
+    background-color: hsl(217, 19%, 24%);
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    width: 350px;
+    text-align: center;
+    margin: 0 20px;
+    h1{
+        font-size: 1rem;
+        color: hsl(150, 100%, 66%);
+        margin: 10px 0;
+    }
+    p{
+        font-variation-settings: 'wght' 800;
+        color: hsl(193, 38%, 86%);
+        font-size: 1.75rem;
+        margin: 20px 0;
+    }
+    div{
+        padding: 20px;
+        background-image: url(../images/pattern-divider-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 20px;
+    }
+    button{
+        position: absolute;
+        background-color: hsl(150, 100%, 66%);
+        background-image: url(../images/icon-dice.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px;
+        border-radius: 50%;
+        left: 43%;
+        border: none;
+    }
+}
